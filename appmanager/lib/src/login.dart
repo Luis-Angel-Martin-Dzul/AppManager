@@ -153,21 +153,6 @@ class _LoginPageState extends State<LoginPage> {
             SizedBox(
               height: 50,
             ),
-            InkWell(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Text("¿Aun No Tiene Cuenta?"),
-                  Text(
-                    " Cree Una",
-                    style: TextStyle(color: Color(0xff252850)),
-                  ),
-                ],
-              ),
-              onTap: () {
-                Navigator.pushNamed(context, '/signup');
-              },
-            ),
           ],
         ),
       ),

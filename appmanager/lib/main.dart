@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:appmanager/src/home.dart';
 import 'package:appmanager/src/login.dart';
-import 'package:appmanager/src/signup.dart';
 
 void main() => runApp(TC());
 
@@ -12,9 +11,8 @@ class TC extends StatelessWidget {
       initialRoute: '/login',
       debugShowCheckedModeBanner: false,
       routes: {
-        '/': (context) => HomePage(),
+        '/': (context) => MyHome(),
         '/login': (context) => LoginPage(),
-        '/signup': (context) => SignupPage(),
       },
     );
   }
