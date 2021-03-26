@@ -1,6 +1,9 @@
-# pruebaappmanager
+# App Movil - APManager
 
-A new Flutter project.
+Aplicacion Desarrollada Con Flutter Por:
+  Luis A Martin Dzul
+  Fernando Cancino Chim
+
 
 ## Getting Started
 
